@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/oie_w.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://kit.fontawesome.com/c3a0d71bd6.js" crossorigin="anonymous"></script>
+    <title>Decodificador de Texto</title>
+</head>
+<body class="container">
+    <header class="container__header">
+        <h1 id="titulo">Decodificador de Texto</h1>
+    </header>
+    <main class="container__main">
+        <section class="container__main__section">
+            <div>
+                <textarea id="encode-text" placeholder="Digite o texto"></textarea>
+            </div>
+            <div class="container__main__section__buttons">
+                <div class="container__main__section__warning">
+                    <img src="./assets/bi_exclamation-circle-fill.png">
+                    <p id="paragrafo">Apenas letras minúsculas e sem acento</p>
+                </div>
+                <div class="button-group">
+                    <button id="btnCodificar" class="button--encode">
+                        <span>C</span>
+                        <span>r</span>
+                        <span>i</span>
+                        <span>p</span>
+                        <span>t</span>
+                        <span>o</span>
+                        <span>g</span>
+                        <span>r</span>
+                        <span>a</span>
+                        <span>f</span>
+                        <span>a</span>
+                        <span>r</span>
+                    </button>
+                    <button id="btn__descrit" class="button--decode">
+                        <span>D</span>
+                        <span>e</span>
+                        <span>s</span>
+                        <span>c</span>
+                        <span>r</span>
+                        <span>i</span>
+                        <span>p</span>
+                        <span>t</span>
+                        <span>o</span>
+                        <span>g</span>
+                        <span>r</span>
+                        <span>a</span>
+                        <span>f</span>
+                        <span>a</span>
+                        <span>r</span>
+                    </button>  
+                </div>
+                <label class="switch">
+                    <img id="icon__light" src="./assets/noun-sun-light-edit-v2.svg">
+                    <img id="icon__dark" src="./assets/noun-sun-dark-edited.svg">
+                    <input id="toggle" type="checkbox" name="toggle" checked>
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </section>
+    </main>
+    <aside class="container__aside">
+        <div id="div__oculta" class="container__aside__copiar displayNone">
+            <textarea class="" name="" id="decoded-text" placeholder="Nenhuma mensagem"></textarea>
+            <button id="btn__copiar" class="btn__copiar">Copiar</button>
+        </div>  
+        <div id="div__show" class="container__aside__content">
+            <img id="logo__aside" src="./assets/High quality products 1 1.svg" alt="">
+            <h2 id="aside__h2">Nenhuma mensagem encontrada</h2>
+            <p id="aside__p">Digite um texto que você deseja criptografar ou descriptografar.</p>
+        </div>
+    </aside>
+    <footer>
+        <p class="dev__linksss">©️ Desenvolvido por Edimaique Maciel</p>
+        <p>
+            <a class="dev__links" href="https://github.com/edimaiquemaciel" target="_blank"><i class="fa-brands fa-square-github fa-xl"></i>GitHub |</a>
+            <a class="dev__linkss" href="https://www.linkedin.com/in/edimaique-maciel/" target="_blank"><i class="fa-brands fa-linkedin fa-xl"></i>Linkedin</a>
+        </p>
+    </footer>
+    <script type="module" src="./js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
