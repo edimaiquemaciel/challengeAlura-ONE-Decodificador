@@ -1,6 +1,9 @@
-# Challenge Alura + ONE - Decodificador de texto
+<h1 align="center">Challenge Alura + ONE - Decodificador de texto</h1>
+<br><br>
 
-<img scr>
+<p align="center"><img src="./assets/gravação site.gif"></p>
+<br><br>
+<p align="center"><img src="./assets/gravação site.gif"></p>
 
 ## Descrição
 Este repositório contém o código para uma aplicação que criptografa e descriptografa textos utilizando um algoritmo simples de substituição de letras. A aplicação é baseada no primeiro desafio do programa ONE da Oracle + Alura.
