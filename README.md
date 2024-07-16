@@ -11,10 +11,10 @@
 <p align="center"><img src="./assets/gravação site.gif"></p>
 <br><br>
 <h2><ul><li>Tablet</li></ul></h2>
-<p align="center"><img src="./assets/gravação site.gif"></p>
+<p align="center"><img src="./assets/tablet.png" width="400px"></p>
 <br><br>
 <h2><ul><li>Smartphone</li></ul></h2>
-<p align="center"><img src="./assets/gravação site.gif"></p>
+<p align="center"><img src="./assets/smartphone.jpg" width="250px"></p>
 <br><br>
 
 
