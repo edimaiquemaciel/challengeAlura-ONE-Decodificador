@@ -1,4 +1,4 @@
-import { cripIn } from "./modulos/funbtn.js";
+import { cripIn } from "./modulos/funBtn.js";
 import { cpyTexto } from "./modulos/copiarTexto.js";
 import { darkMode } from "./modulos/darkMode.js";
 import { animarTitulo } from "./modulos/animarTitulo.js"
