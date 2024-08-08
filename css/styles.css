@@ -7,6 +7,7 @@
 }
 body{
     background-color: #131314;
+    transition: background-color 0.8s ease-in-out;
 }
 
 .body__light{
@@ -67,6 +68,7 @@ body{
   padding: 0.3125rem 0.3125rem 20rem 0.3125rem;
   background-color: #1E1F20;
   color: #dcdcdc;
+  transition: background-color 0.8s ease-in-out;
 }
 
 .encode-text__light {
@@ -253,6 +255,7 @@ input:checked + .slider:before {
   margin: 2.8125rem 2.5rem 55px 2.5rem;
   padding: 2rem 0 1.5625rem 0;
   text-align: center;
+  transition: background-color 0.8s ease-in-out;
 }
 
 .container__aside__light{
@@ -296,6 +299,7 @@ input:checked + .slider:before {
   border-radius: 0.625rem;
   background-color: #1E1F20;
   color: #dcdcdc;
+  transition: background-color 0.8s ease-in-out;
   
 }
 
